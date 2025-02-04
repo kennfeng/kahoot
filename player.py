@@ -14,12 +14,12 @@ answer_coords = {
 }
 
 def getTxt():
-    left, top, width, height = 40, 510, 1200, 60
+    left, top, width, height = 40, 510, 1200, 60    # Question coordinates
 
-    left1, top1, width1, height1 = 20, 575, 610, 70
-    left2, top2, width2, height2 = 660, 575, 600, 70
-    left3, top3, width3, height3 = 20, 650, 610, 70
-    left4, top4, width4, height4 = 660, 650, 600, 70
+    left1, top1, width1, height1 = 20, 575, 610, 70    # Answer 1 coordinates
+    left2, top2, width2, height2 = 660, 575, 600, 70    # Answer 2 coordinates
+    left3, top3, width3, height3 = 20, 650, 610, 70    # Answer 3 coordinates
+    left4, top4, width4, height4 = 660, 650, 600, 70    # Answer 4 coordinates
 
 
     screenshot = pyautogui.screenshot(region=(left, top, width, height))
